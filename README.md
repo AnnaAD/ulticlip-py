@@ -1,0 +1,32 @@
+# install:
+
+Install moviepy
+
+`pip install moviepy`
+
+Install ffmpeg:
+
+on mac with homebrew:
+`brew install ffmpeg`
+
+# run:
+
+`python clip.py <input_file> <timestamps_file> <output_directory>`
+
+# timestamp file format
+
+```
+00:09-00:16: tip to score Anna and Tilly and Elizabeth
+00:50-01:02: handler power position to away for score strike Walle Megan Tilly
+03:00-03:10: ted RUN THROUGH D critical!
+07:32-07:38: Anna score up high
+08:14-08:17: Walle get that D
+09:18-09:23: Megan D
+09:42-09:53: Walle to MEGAN??
+17:54-18:05: huck to score walle and tilly
+19:32-19:40: walle upline grit
+20:09-20:15: mick 2nd attempt grab
+21:01-21:14: Megan DUNK
+22:35-22:43: walle megan L upline to huck score
+28:40-28:56: good end zone movement
+```
