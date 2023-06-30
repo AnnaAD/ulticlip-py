@@ -32,7 +32,7 @@ if __name__ == "__main__":
         for index, line in enumerate(file):
             timestamp, clip_name = line.strip().split(": ")
             start_time, end_time = timestamp.split("-")
-            output_file = f"output/{clip_name.replace(' ', '-')}-{start_time}-{end_time}.mp4"
+            output_file = f"{output_directory}/{clip_name.replace(' ', '-')}-{start_time}-{end_time}.mp4"
             print(start_time)
             print(end_time)
             split_video(input_file, start_time, end_time, output_file)
